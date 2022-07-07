@@ -1,0 +1,61 @@
+.signIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signIn__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.signIn__form > input {
+  height: 30px;
+  width: 80%;
+  align-self: center;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+img {
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: -10px;
+}
+.signIn__form > h1 {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.signIn__form > p {
+  margin-bottom: 5px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.submit {
+  align-self: center;
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+  height: 40px;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.create {
+  background-color: lightgray;
+}
+.signIn__form > p.lorem {
+  font-weight: lighter;
+  font-size: small;
+  width: 80%;
+}
+.signIn__form > p.forgotten {
+  color: rgba(51, 86, 202, 0.8);
+}

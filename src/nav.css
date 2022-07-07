@@ -1,0 +1,40 @@
+.nav > .list {
+  display: flex;
+  flex-direction: column;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+}
+.option:hover {
+  background-color: lightgray;
+}
+.option:hover > .icon {
+  color: black;
+}
+.text {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.nav {
+  background-color: white;
+  height: 100vh;
+  overflow: scroll;
+}
+.menu::-webkit-scrollbar {
+  display: none;
+}
+.toMenu {
+  padding-left: 20px;
+  color: rgb(31, 31, 59);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightslategray;
+}
+.toMenu > h2 {
+  margin-left: 10px;
+  font-size: 1rem;
+}

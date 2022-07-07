@@ -1,0 +1,26 @@
+.home {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home__row {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  grid-column-gap: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  z-index: 1;
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  height: 50vh;
+  mask-image: linear-gradient(to bottom, black, transparent);
+}

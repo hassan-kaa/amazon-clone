@@ -1,0 +1,6 @@
+.App {
+  overflow-x: hidden;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
